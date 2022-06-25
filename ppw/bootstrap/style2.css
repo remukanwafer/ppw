@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    overflow: hidden;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #271312;
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header img{
+    position: relative;
+    
+}
+
+header .nav{
+    position: relative;
+    display:flex;
+}
+
+header .nav li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+header .nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-left: 70px;
+}
+
+header .nav li a:hover{
+    opacity: .6;
+}
+header .btn:hover{
+    transform: scale(0.9);
+    opacity: .7;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 500px 2fr;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.main-content {
+    margin-left: 90px;
+    margin-right: 900px;
+    margin-top: 135px;
+}
+
+.main-content-h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: -18px;
+}
+
+.main-content-h2 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #FF4C59;
+    margin-bottom: 20px;
+}
+
+.main-content-p{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+
+
+.main-price {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 19px;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 190px;
+    height: 52px;
+    background: linear-gradient(90deg, #D97548 -8.04%, rgba(138, 53, 16, 0.79) 113.69%);
+    color: white;
+    padding-top: 14px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover{
+    opacity: 0.7;
+    transform: scale(0.9);
+
+}
+
+.cta:hover {
+    opacity: .6;
+}
+
+.main-img img {
+    margin-left: 1px;
+    margin-top: 5px;
+    width: 600px;
+    height: 640px;
+    position: absolute;
+    
+}
+
